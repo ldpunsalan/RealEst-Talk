@@ -2133,6 +2133,56 @@ input, select, textarea {
 				color: inherit;
 			}
 
+	#methods {
+		padding: 10em 0 10em 0;
+	}
+
+		#methods .image {
+			border-radius: 100%;
+			width: 20em;
+			height: 20em;
+			margin: 0;
+		}
+
+			#methods .image img {
+				border-radius: 100%;
+			}
+	
+	#data {
+		padding: 10em 0 10em 0;
+	}
+
+		#data .image {
+			border-radius: 100%;
+			width: 20em;
+			height: 20em;
+			margin: 0;
+		}
+
+			#data .image img {
+				border-radius: 100%;
+			}
+
+	#rquests {
+		padding: 10em 0 10em 0;
+	}
+
+		#rquests .image {
+			width: 30em;
+			height: 30em;
+			margin: 0;
+		}
+
+			#rquests .image img {
+				margin-right:2%;
+				float: left;
+			}
+		
+		#rquests .body {
+			width:50%;
+			float: left;
+		}
+
 	#contact footer {
 		font-size: 0.9em;
 	}
