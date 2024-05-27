@@ -2006,6 +2006,7 @@ input, select, textarea {
 		.wrapper.style3 {
 			background-color: #f4f4f4;
 			text-shadow: 1px 1px 0px #fff;
+			color: #303030
 		}
 
 		.wrapper.style4 {
@@ -2183,6 +2184,13 @@ input, select, textarea {
 			float: left;
 		}
 
+	#team .body {
+		color: #303030
+	}
+
+	#team .container {
+		border-radius: 50%;
+	}
 	#contact footer {
 		font-size: 0.9em;
 	}
