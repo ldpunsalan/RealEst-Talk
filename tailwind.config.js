@@ -1,9 +1,16 @@
-/** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  plugins: [],
   theme: {
+    extend: {
+      colors: {
+        "cat mauve": "#cba6f7",
+        "cat blue": "#89b4fa",
+      },
+    },
+  },
+  purge: ["./index.html", "./src/**/*.{svelte,js,ts}"], //for unused css
+  variants: {
     extend: {},
   },
-  plugins: [],
-}
-
+  darkmode: false, // or 'media' or 'class'
+};
