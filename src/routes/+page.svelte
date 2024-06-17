@@ -10,9 +10,10 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
+<section class="hero-container">
   <h1
-    class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#cba6f7] to-[#89b4fa]"
+    style="font-size: 9rem;"
+    class="leading-none font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#cba6f7] to-[#89b4fa]"
   >
     Real<span class="text-white">(i)</span>ty Check
   </h1>
@@ -115,5 +116,16 @@
 
   h1 {
     width: 100%;
+  }
+
+  .hero-container {
+    width: 100%; /* Full width */
+    min-height: 100vh; /* Full height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("your-image-url.jpg");
+    background-size: cover;
+    background-position: center;
   }
 </style>

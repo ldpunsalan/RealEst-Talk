@@ -9,7 +9,7 @@
     <img src={logo} alt="Logo" />
   </div>
 
-  <nav>
+  <nav class="fixed z-20 w-full">
     <svg viewBox="0 0 2 3" aria-hidden="true">
       <path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
     </svg>
@@ -17,8 +17,8 @@
       <li aria-current={$page.url.pathname === "/" ? "page" : undefined}>
         <a href="/">Top</a>
       </li>
-      <li aria-current={$page.url.pathname === "/about" ? "page" : undefined}>
-        <a href="/about">Background</a>
+      <li aria-current={$page.url.pathname === "#top" ? "page" : undefined}>
+        <a href="#top">Background</a>
       </li>
       <li aria-current={$page.url.pathname === "/about" ? "page" : undefined}>
         <a href="/about">Data</a>
