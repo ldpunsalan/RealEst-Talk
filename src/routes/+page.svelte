@@ -143,7 +143,23 @@
       </div>
       <div class="flex flex-row">
         <Card>
-          <h2>Null</h2>
+          <div class="flex items-center space-x-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15 12H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+            <h2>Null Hypothesis</h2>
+          </div>
           <p>
             There is no significant difference between prices of similar types
             of real estate in highly urbanized cities compared to non-highly
@@ -151,7 +167,24 @@
           </p>
         </Card>
         <Card>
-          <h2>Alternative</h2>
+          <div class="flex items-center space-x-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+
+            <h2>Alternative Hypothesis</h2>
+          </div>
           <p>
             Real estate in more highly urbanized cities of the Philippines are
             more expensive than their counterparts in non-highly urbanized areas
