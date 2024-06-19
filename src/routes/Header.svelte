@@ -1,7 +1,5 @@
 <script>
   import { page } from "$app/stores";
-  import logo from "$lib/images/logo.png";
-  import github from "$lib/images/github.svg";
 </script>
 
 <header>
@@ -146,7 +144,6 @@
     padding: 0.5rem 0.5rem;
     color: var(--color-text);
     font-size: 0.7rem;
-    letter-spacing: 0.1em;
     text-decoration: none;
     transition: color 0.2s linear;
   }
