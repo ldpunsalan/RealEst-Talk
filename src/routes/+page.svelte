@@ -274,42 +274,42 @@
       >
         Data Preprocessing
       </h1>
-      <div class="flex">
-        <div class="flex flex-col">
-          <div class="flex flex-row text-center items-stretch">
+    </div>
+    <div class="flex">
+      <div class="flex flex-col">
+        <div class="flex flex-row text-center items-stretch">
+          <Card>
+            <h2>Data Cleansing</h2>
+            Duplicate entries and entries with a missing price were removed.
+          </Card>
+          <Card>
+            <h2>Data Reduction</h2>
+            Unnecessary columns were removed (e.g longitude and latitude).
+          </Card>
+        </div>
+        <div class="flex flex-row">
+          <div class="grow items-center justify-center text-center">
             <Card>
-              <h2>Data Cleansing</h2>
-              Duplicate entries and entries with a missing price were removed.
-            </Card>
-            <Card>
-              <h2>Data Reduction</h2>
-              Unnecessary columns were removed (e.g longitude and latitude).
+              <p class="font-bold text-4xl">1196</p>
+              <p class="text-2xl">entries</p>
             </Card>
           </div>
-          <div class="flex flex-row">
-            <div class="grow items-center justify-center text-center">
-              <Card>
-                <p class="font-bold text-4xl">1196</p>
-                <p class="text-2xl">entries</p>
-              </Card>
-            </div>
-            <div class="grow items-center justify-center text-center">
-              <Card>
-                <p class="font-bold text-4xl">10</p>
-                <p class="text-2xl">features</p>
-              </Card>
-            </div>
+          <div class="grow items-center justify-center text-center">
+            <Card>
+              <p class="font-bold text-4xl">10</p>
+              <p class="text-2xl">features</p>
+            </Card>
           </div>
         </div>
-
-        <Card>
-          <h2>Data Transformation</h2>
-          Real estate type (House/Lot/Condo Unit), province, region, and degree of
-          urbanization (Highly Urbanized/Non-highly Urbanized) were added as new
-          features Houses include Duplexes, Houses, and Townhouses Lots include Residential
-          Lots and Commercial Lots
-        </Card>
       </div>
+
+      <Card>
+        <h2>Data Transformation</h2>
+        Real estate type (House/Lot/Condo Unit), province, region, and degree of
+        urbanization (Highly Urbanized/Non-highly Urbanized) were added as new features
+        Houses include Duplexes, Houses, and Townhouses Lots include Residential
+        Lots and Commercial Lots
+      </Card>
     </div>
   </section>
 
