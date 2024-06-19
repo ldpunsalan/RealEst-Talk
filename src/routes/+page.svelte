@@ -11,27 +11,28 @@
 </svelte:head>
 
 <section class="hero-container">
-  <h1
-    style="font-size: 9rem;"
-    class="leading-none font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#cba6f7] to-[#89b4fa]"
-  >
-    Real<span class="text-white">(i)</span>ty Check
-  </h1>
-  <p>
-    An analysis of real estate prices across different cities in the Philippines
-  </p>
-  <p>by RealEst Talk</p>
-</section>
-<br /><br />
-<section>
-  <h1
-    class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#89b4fa] to-[#cba6f7]"
-  >
-    Background
-  </h1>
-  <div class="flex flex-row space-x-4">
-    <Card>
-      <p class="text-center">
+  <div class="flex xs:flex-col xs:items-center md:flex-row md:space-x-10">
+    <div class="flex flex-col">
+      <h1
+        style="font-size: 5rem;"
+        class="text-left leading-none font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#cba6f7] to-[#89b4fa]"
+      >
+        Real<span class="text-white">(i)</span>ty Check
+      </h1>
+      <p>
+        An analysis of real estate prices across different cities in the
+        Philippines
+      </p>
+      <p>by RealEst Talk</p>
+    </div>
+
+    <Card id="Background">
+      <h1
+        class="text-left font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#89b4fa] to-[#cba6f7]"
+      >
+        Background
+      </h1>
+      <p class="text-left">
         The Philippine real estate market is influenced by various factors,
         including economic growth, infrastructure development, and population
         density. There is a pressing issue of housing affordability,
@@ -42,7 +43,6 @@
         and hindering sustainable urban development.
       </p>
     </Card>
-    <Card>insert image here or smth</Card>
   </div>
 </section>
 <br /><br />
