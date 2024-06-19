@@ -275,19 +275,28 @@
         Data Preprocessing
       </h1>
     </div>
-    <div class="flex">
-      <div class="flex flex-col">
-        <div class="flex flex-row text-center items-stretch">
+    <div class="grid grid-cols-4 text-center">
           <Card>
             <h2>Data Cleansing</h2>
             Duplicate entries and entries with a missing price were removed.
+            <br><br>
           </Card>
           <Card>
             <h2>Data Reduction</h2>
             Unnecessary columns were removed (e.g longitude and latitude).
           </Card>
+        <div class="grid col-span-2 row-span-2">
+          <Card>
+            <h2>Data Transformation</h2>
+            <br>
+            <p>Added real estate type as a feature (house / condo unit / lot)  - house type encompasses houses, 
+              townhouses, duplexes while lots encompasses commercial and residential </p>
+              <br>
+            <p>Added degree of urbanization (highly urbanized / non-highly urbanized) 
+              based on <a href="https://cmci.dti.gov.ph/rankings-data.php?unit=Highly%20Urbanized%20Cities" style="color:#89b4fa"><u>DTI 2023 city rankings.</u></a>
+            </p>
+          </Card>
         </div>
-        <div class="flex flex-row">
           <div class="grow items-center justify-center text-center">
             <Card>
               <p class="font-bold text-4xl">1196</p>
@@ -300,16 +309,6 @@
               <p class="text-2xl">features</p>
             </Card>
           </div>
-        </div>
-      </div>
-
-      <Card>
-        <h2>Data Transformation</h2>
-        Real estate type (House/Lot/Condo Unit), province, region, and degree of
-        urbanization (Highly Urbanized/Non-highly Urbanized) were added as new features
-        Houses include Duplexes, Houses, and Townhouses Lots include Residential
-        Lots and Commercial Lots
-      </Card>
     </div>
   </section>
 
@@ -516,7 +515,6 @@
         </div>
       </Card>
     </div>
-    <h2>We ended up with 1196 entries and 10 features.</h2>
   </section>
 </main>
 
@@ -553,7 +551,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("your-image-url.jpg");
+    /* background-image: url("your-image-url.jpg"); */
     background-size: cover;
     background-position: center;
   }
