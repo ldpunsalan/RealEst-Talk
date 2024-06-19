@@ -117,6 +117,89 @@
   </section>
 </main>
 
+<section>
+  <h1
+    class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#89b4fa] to-[#cba6f7]"
+  >
+    Data Preprocessing
+  </h1>
+  <div class="flex flex-row space-x-4">
+    <Card>
+      <h2>Data Cleansing</h2>
+      <br>
+      <ul style="list-style-type:disc;">
+        <li>Duplicate entries and entries with a missing price were removed.</li>
+      </ul>
+    </Card>
+    <Card>
+      <h2>Data Reduction</h2>
+      <br>
+      <ul style="list-style-type:disc;">
+        <li>Unnecessary columns were removed (e.g longitude and latitude).</li>
+      </ul>
+    </Card>
+    <Card>
+      <h2>Data Transformation</h2>
+      <br>
+        <ul style="list-style-type:disc;">
+          <li> Real estate type (House/Lot/Condo Unit), province, region, and degree of urbanization 
+            (Highly Urbanized/Non-highly Urbanized) were added as new features</li>
+          <li>Houses include Duplexes, Houses, and Townhouses</li>
+          <li>Lots include Residential Lots and Commercial Lots</li>
+        </ul>
+    </Card>
+  </div>
+  <h2>We ended up with 1196 entries and 10 features.</h2>
+</section>
+
+<br>
+
+<section>
+  <h1
+    class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#89b4fa] to-[#cba6f7]"
+  >
+    Answering our Research Questions
+  </h1>
+  <br>
+  
+  <h2>1. How do real estate prices vary across different cities in the Philippines?</h2>
+  <div class="grid grid-rows-3 grid-flow-col gap-4"> 
+    <Card>
+      <div class ="flex flex-row">
+      <div class="mb-4">
+        <img
+          src="src\lib\images\logo.png"
+          class="h-auto max-w-full rounded-lg"
+          alt="" />
+      </div>
+      <h2>Data Cleansing</h2>
+      <br>
+      <ul style="list-style-type:disc;">
+        <li>Duplicate entries and entries with a missing price were removed.</li>
+      </ul>
+    </div>
+    </Card>
+    <Card>
+      <h2>Data Reduction</h2>
+      <br>
+      <ul style="list-style-type:disc;">
+        <li>Unnecessary columns were removed (e.g longitude and latitude).</li>
+      </ul>
+    </Card>
+    <Card>
+      <h2>Data Transformation</h2>
+      <br>
+        <ul style="list-style-type:disc;">
+          <li> Real estate type (House/Lot/Condo Unit), province, region, and degree of urbanization 
+            (Highly Urbanized/Non-highly Urbanized) were added as new features</li>
+          <li>Houses include Duplexes, Houses, and Townhouses</li>
+          <li>Lots include Residential Lots and Commercial Lots</li>
+        </ul>
+    </Card>
+  </div>
+  <h2>We ended up with 1196 entries and 10 features.</h2>
+</section>
+
 <style>
   section {
     display: flex;
@@ -128,6 +211,11 @@
 
   h1 {
     width: 100%;
+  }
+
+  h2 {
+    font-weight: bold;
+    text-align: center;
   }
 
   .hero-container {
