@@ -33,6 +33,12 @@ p {
 	font-weight: 400;
 }
 
+
+h2 {
+	font-size: 1.25rem;
+	color: var(--color-theme-1);
+}
+
 p {
 	line-height: 1.5;
 }
@@ -44,11 +50,6 @@ a {
 
 a:hover {
 	text-decoration: underline;
-}
-
-h2 {
-	font-size: 1.25rem;
-	color: var(--color-theme-1);
 }
 
 pre {

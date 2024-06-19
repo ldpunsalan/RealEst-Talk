@@ -32,7 +32,7 @@
     >
   </section>
   <section id="overview" class="pt-32">
-    <div class="flex flex-row items-center space-x-4">
+    <div class="flex flex-row items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -56,14 +56,14 @@
     <div class="flex flex-col">
       <Card class="flex">
         <p class="text-center">
-          The Philippine real estate market is influenced by various factors,
-          including economic growth, infrastructure development, and population
-          density. There is a pressing issue of housing affordability,
-          particularly in urban areas, where real estate prices continue to
-          rise, and making homeownership increasingly inaccessible for many
-          segments of the population. This has led to housing insecurity, forced
-          evictions, informal settlements, and social exclusion, exacerbating
-          inequalities and hindering sustainable urban development.
+          The Philippine real estate market is influenced by factors like
+          economic growth, infrastructure development, and population density.
+          There is a pressing issue of housing affordability, particularly in
+          urban areas, where real estate prices continue to rise — making
+          homeownership increasingly inaccessible for the masses. This has led
+          to housing insecurity, forced evictions, informal settlements, and
+          social exclusion, exacerbating inequalities and hindering sustainable
+          urban development.
         </p>
       </Card>
       <div class="flex flex-row">
@@ -212,34 +212,46 @@
           d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
         />
       </svg>
-    <h1
-      class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#89b4fa] to-[#cba6f7]"
-    >
-      Data Gathering
-    </h1>
+      <h1
+        class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#89b4fa] to-[#cba6f7]"
+      >
+        Data Gathering
+      </h1>
     </div>
     <div class="flex flex-row space-x-4 items-center">
       <Card>
         <div class="justify-center">
-        <h2>We mined 1,500 entries from <a href="https://www.lamudi.com.ph/" style="color:#89b4fa"><u>Lamudi</u></a> for real estate data.</h2>
-        <br />
-        <p class="text-center">Lamudi is a real estate agency with a website for listings for 
-          real estate properties. The data was scraped using a modified 
-          version of 
-          <a href="https://github.com/arl7d/portfoilioprojects/tree/main/Web_scraping_Philippine_real_estate" style="color:#89b4fa">
-            <u>this python script.</u>
-          </a>
-        </p>
-        <br> <br>
-        <button>
-          <a href="https://docs.google.com/spreadsheets/d/1kvwDaHs-RAxw1JMh26u4GkBeTQdy41mho1BkSPY33Pg/edit?usp=sharing" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Let's take a look at our data</a>
-        </button>
+          <h2>
+            We mined 1,500 entries from <a
+              href="https://www.lamudi.com.ph/"
+              style="color:#89b4fa"><u>Lamudi</u></a
+            > for real estate data.
+          </h2>
+          <br />
+          <p class="text-center">
+            Lamudi is a real estate agency with a website for listings for real
+            estate properties. The data was scraped using a modified version of
+            <a
+              href="https://github.com/arl7d/portfoilioprojects/tree/main/Web_scraping_Philippine_real_estate"
+              style="color:#89b4fa"
+            >
+              <u>this python script.</u>
+            </a>
+          </p>
+          <br /> <br />
+          <button>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1kvwDaHs-RAxw1JMh26u4GkBeTQdy41mho1BkSPY33Pg/edit?usp=sharing"
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              >Let's take a look at our data</a
+            >
+          </button>
         </div>
       </Card>
     </div>
   </section>
 
-  <br />   <br />
+  <br /> <br />
 
   <section class="pt-32">
     <div class="flex flex-row items-center space-x-4">
@@ -257,51 +269,51 @@
           d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
         />
       </svg>
-    <h1
-      class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#89b4fa] to-[#cba6f7]"
-    >
-      Data Preprocessing
-    </h1>
+      <h1
+        class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#89b4fa] to-[#cba6f7]"
+      >
+        Data Preprocessing
+      </h1>
     </div>
-    <div class="flex flex-row space-x-4">
-      <div class="grid grid-cols-3 gap-x-3">
-      <Card>
-        <h2>Data Cleansing</h2>
-        <br />
-        <ul style="list-style-type:disc;">
-          <li>
+    <div class="flex">
+      <div class="flex flex-col">
+        <div class="flex flex-row text-center items-stretch">
+          <Card>
+            <h2>Data Cleansing</h2>
             Duplicate entries and entries with a missing price were removed.
-          </li>
-        </ul>
-      </Card>
-      <Card>
-        <h2>Data Reduction</h2>
-        <br />
-        <ul style="list-style-type:disc;">
-          <li>
+          </Card>
+          <Card>
+            <h2>Data Reduction</h2>
             Unnecessary columns were removed (e.g longitude and latitude).
-          </li>
-        </ul>
-      </Card>
+          </Card>
+        </div>
+        <div class="flex flex-row">
+          <div class="grow items-center justify-center text-center">
+            <Card>
+              <p class="font-bold text-4xl">1196</p>
+              <p class="text-2xl">entries</p>
+            </Card>
+          </div>
+          <div class="grow items-center justify-center text-center">
+            <Card>
+              <p class="font-bold text-4xl">10</p>
+              <p class="text-2xl">features</p>
+            </Card>
+          </div>
+        </div>
+      </div>
+
       <Card>
         <h2>Data Transformation</h2>
-        <br />
-        <ul style="list-style-type:disc;">
-          <li>
-            Real estate type (House/Lot/Condo Unit), province, region, and
-            degree of urbanization (Highly Urbanized/Non-highly Urbanized) were
-            added as new features
-          </li>
-          <li>Houses include Duplexes, Houses, and Townhouses</li>
-          <li>Lots include Residential Lots and Commercial Lots</li>
-        </ul>
+        Real estate type (House/Lot/Condo Unit), province, region, and degree of
+        urbanization (Highly Urbanized/Non-highly Urbanized) were added as new features
+        Houses include Duplexes, Houses, and Townhouses Lots include Residential
+        Lots and Commercial Lots
       </Card>
     </div>
-    <h2>We ended up with 1196 entries and 10 features.</h2>
   </section>
 
-  <br />   <br />
-
+  <br /> <br />
 
   <section>
     <div class="flex flex-row items-center space-x-4">
@@ -319,11 +331,11 @@
           d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
         />
       </svg>
-    <h1
-      class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#89b4fa] to-[#cba6f7]"
-    >
-      Answering our Research Questions
-    </h1>
+      <h1
+        class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#89b4fa] to-[#cba6f7]"
+      >
+        Answering our Research Questions
+      </h1>
     </div>
     <br />
 
@@ -342,27 +354,51 @@
             />
           </div>
           <div>
-            <h2>House Listings</h2>	
+            <h2>House Listings</h2>
             <p>This graph shows that for House Listings:</p>
-            <br>
+            <br />
             <ul style="list-style-type:disc;">
-            <li><strong>Highest Average Price per sqm (Overall & Highly Urbanized):</strong> 
-              <p>The City of Lapu-lapu with <strong>₱175,326.50/sqm</strong></p>
-            </li>
-            <br>
-            <li><strong>Highest Average Price per sqm (Non-highly Urbanized):</strong> 
-              <p>The Municipality of Nasugbu with <strong>₱64,056.94/sqm</strong></p>
-            </li>
-            <br>
-            <li><strong>Lowest Average Price per sqm (Highly Urbanized):</strong> 
-              <p>The City of Zamboanga with <strong>₱25,705.08/sqm</strong></p>
-            </li>
-            <br>
-            <li><strong>Lowest Average Price per sqm (Overall & Non-highly Urbanized):</strong> 
-              <p>The Island Garden City of Samal with <strong>₱17,605.63/sqm</strong></p>
-            </li>
+              <li>
+                <strong
+                  >Highest Average Price per sqm (Overall & Highly Urbanized):</strong
+                >
+                <p>
+                  The City of Lapu-lapu with <strong>₱175,326.50/sqm</strong>
+                </p>
+              </li>
+              <br />
+              <li>
+                <strong
+                  >Highest Average Price per sqm (Non-highly Urbanized):</strong
+                >
+                <p>
+                  The Municipality of Nasugbu with <strong
+                    >₱64,056.94/sqm</strong
+                  >
+                </p>
+              </li>
+              <br />
+              <li>
+                <strong>Lowest Average Price per sqm (Highly Urbanized):</strong
+                >
+                <p>
+                  The City of Zamboanga with <strong>₱25,705.08/sqm</strong>
+                </p>
+              </li>
+              <br />
+              <li>
+                <strong
+                  >Lowest Average Price per sqm (Overall & Non-highly
+                  Urbanized):</strong
+                >
+                <p>
+                  The Island Garden City of Samal with <strong
+                    >₱17,605.63/sqm</strong
+                  >
+                </p>
+              </li>
             </ul>
-        </div>
+          </div>
         </div>
       </Card>
       <Card>
@@ -375,27 +411,51 @@
             />
           </div>
           <div>
-            <h2>House Listings</h2>	
+            <h2>House Listings</h2>
             <p>This graph shows that for House Listings:</p>
-            <br>
+            <br />
             <ul style="list-style-type:disc;">
-            <li><strong>Highest Average Price per sqm (Overall & Highly Urbanized):</strong> 
-              <p>The City of Lapu-lapu with <strong>₱175,326.50/sqm</strong></p>
-            </li>
-            <br>
-            <li><strong>Highest Average Price per sqm (Non-highly Urbanized):</strong> 
-              <p>The Municipality of Nasugbu with <strong>₱64,056.94/sqm</strong></p>
-            </li>
-            <br>
-            <li><strong>Lowest Average Price per sqm (Highly Urbanized):</strong> 
-              <p>The City of Zamboanga with <strong>₱25,705.08/sqm</strong></p>
-            </li>
-            <br>
-            <li><strong>Lowest Average Price per sqm (Overall & Non-highly Urbanized):</strong> 
-              <p>The Island Garden City of Samal with <strong>₱17,605.63/sqm</strong></p>
-            </li>
+              <li>
+                <strong
+                  >Highest Average Price per sqm (Overall & Highly Urbanized):</strong
+                >
+                <p>
+                  The City of Lapu-lapu with <strong>₱175,326.50/sqm</strong>
+                </p>
+              </li>
+              <br />
+              <li>
+                <strong
+                  >Highest Average Price per sqm (Non-highly Urbanized):</strong
+                >
+                <p>
+                  The Municipality of Nasugbu with <strong
+                    >₱64,056.94/sqm</strong
+                  >
+                </p>
+              </li>
+              <br />
+              <li>
+                <strong>Lowest Average Price per sqm (Highly Urbanized):</strong
+                >
+                <p>
+                  The City of Zamboanga with <strong>₱25,705.08/sqm</strong>
+                </p>
+              </li>
+              <br />
+              <li>
+                <strong
+                  >Lowest Average Price per sqm (Overall & Non-highly
+                  Urbanized):</strong
+                >
+                <p>
+                  The Island Garden City of Samal with <strong
+                    >₱17,605.63/sqm</strong
+                  >
+                </p>
+              </li>
             </ul>
-        </div>
+          </div>
         </div>
       </Card>
       <Card>
@@ -408,27 +468,51 @@
             />
           </div>
           <div>
-            <h2>House Listings</h2>	
+            <h2>House Listings</h2>
             <p>This graph shows that for House Listings:</p>
-            <br>
+            <br />
             <ul style="list-style-type:disc;">
-            <li><strong>Highest Average Price per sqm (Overall & Highly Urbanized):</strong> 
-              <p>The City of Lapu-lapu with <strong>₱175,326.50/sqm</strong></p>
-            </li>
-            <br>
-            <li><strong>Highest Average Price per sqm (Non-highly Urbanized):</strong> 
-              <p>The Municipality of Nasugbu with <strong>₱64,056.94/sqm</strong></p>
-            </li>
-            <br>
-            <li><strong>Lowest Average Price per sqm (Highly Urbanized):</strong> 
-              <p>The City of Zamboanga with <strong>₱25,705.08/sqm</strong></p>
-            </li>
-            <br>
-            <li><strong>Lowest Average Price per sqm (Overall & Non-highly Urbanized):</strong> 
-              <p>The Island Garden City of Samal with <strong>₱17,605.63/sqm</strong></p>
-            </li>
+              <li>
+                <strong
+                  >Highest Average Price per sqm (Overall & Highly Urbanized):</strong
+                >
+                <p>
+                  The City of Lapu-lapu with <strong>₱175,326.50/sqm</strong>
+                </p>
+              </li>
+              <br />
+              <li>
+                <strong
+                  >Highest Average Price per sqm (Non-highly Urbanized):</strong
+                >
+                <p>
+                  The Municipality of Nasugbu with <strong
+                    >₱64,056.94/sqm</strong
+                  >
+                </p>
+              </li>
+              <br />
+              <li>
+                <strong>Lowest Average Price per sqm (Highly Urbanized):</strong
+                >
+                <p>
+                  The City of Zamboanga with <strong>₱25,705.08/sqm</strong>
+                </p>
+              </li>
+              <br />
+              <li>
+                <strong
+                  >Lowest Average Price per sqm (Overall & Non-highly
+                  Urbanized):</strong
+                >
+                <p>
+                  The Island Garden City of Samal with <strong
+                    >₱17,605.63/sqm</strong
+                  >
+                </p>
+              </li>
             </ul>
-        </div>
+          </div>
         </div>
       </Card>
     </div>
@@ -460,8 +544,8 @@
   button {
     position: relative;
     left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
   .hero-container {
     width: 100%; /* Full width */
