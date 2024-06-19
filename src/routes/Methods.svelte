@@ -94,11 +94,28 @@
     <br />
     <div class="flex flex-col">
       <Card>
-        <h2 class="text-[#89b4fa]">
-          1. How do real estate prices vary across different cities in the
-          Philippines?
-        </h2>
+        <div class="flex flex-row space-x-4 items-center justify-left">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="var(--color-theme-2)"
+            class="size-12"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"
+            />
+          </svg>
+          <h2 class="text-[#89b4fa]">
+            How do real estate prices vary across different cities in the
+            Philippines?
+          </h2>
+        </div>
       </Card>
+
       <div class="grid grid-rows-3 grid-flow-col gap-4">
         <Card>
           <div class="flex flex-row gap-10">
@@ -276,10 +293,26 @@
       </div>
       <br />
       <Card>
-        <h2 class="text-[#89b4fa]">
-          2. How do real estate prices vary across different cities in the
-          Philippines?
-        </h2>
+        <div class="flex flex-row space-x-4 items-center justify-left">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="var(--color-theme-2)"
+            class="size-12"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"
+            />
+          </svg>
+          <h2 class="text-[#89b4fa] text-left leading-none">
+            Is there a notable variation in the price-to-floor area ratio among
+            different types of properties in different Philippine locations?
+          </h2>
+        </div>
       </Card>
       <Card>
         <div class="grid grid-cols-2 gap-10">
