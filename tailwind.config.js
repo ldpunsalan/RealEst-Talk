@@ -7,6 +7,14 @@ export default {
         "cat blue": "#89b4fa",
       },
     },
+    screens: {
+      xs: "480px",
+      ss: "620px",
+      sm: "768px",
+      md: "1060px",
+      lg: "1200px",
+      xl: "1700px",
+    },
   },
   purge: ["./index.html", "./src/**/*.{svelte,js,ts}"], //for unused css
   variants: {
