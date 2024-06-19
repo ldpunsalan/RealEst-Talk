@@ -13,4 +13,8 @@
       linear-gradient(#1e1e2e 0 0) padding-box padding-box,
       linear-gradient(to right, #cba6f7, #89b4fa) border-box;
   }
+
+  .card:hover {
+    background: linear-gradient(to right, #cba6f77a, #89b4fa76) border-box;
+  }
 </style>

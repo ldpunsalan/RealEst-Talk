@@ -32,7 +32,7 @@
     >
   </section>
   <section id="overview" class="pt-32">
-    <div class="flex flex-row items-center space-x-4">
+    <div class="flex flex-row items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -56,14 +56,14 @@
     <div class="flex flex-col">
       <Card class="flex">
         <p class="text-center">
-          The Philippine real estate market is influenced by various factors,
-          including economic growth, infrastructure development, and population
-          density. There is a pressing issue of housing affordability,
-          particularly in urban areas, where real estate prices continue to
-          rise, and making homeownership increasingly inaccessible for many
-          segments of the population. This has led to housing insecurity, forced
-          evictions, informal settlements, and social exclusion, exacerbating
-          inequalities and hindering sustainable urban development.
+          The Philippine real estate market is influenced by factors like
+          economic growth, infrastructure development, and population density.
+          There is a pressing issue of housing affordability, particularly in
+          urban areas, where real estate prices continue to rise — making
+          homeownership increasingly inaccessible for the masses. This has led
+          to housing insecurity, forced evictions, informal settlements, and
+          social exclusion, exacerbating inequalities and hindering sustainable
+          urban development.
         </p>
       </Card>
       <div class="flex flex-row">
@@ -201,40 +201,42 @@
     >
       Data Preprocessing
     </h1>
-    <div class="flex flex-row space-x-4">
-      <Card>
-        <h2>Data Cleansing</h2>
-        <br />
-        <ul style="list-style-type:disc;">
-          <li>
+    <div class="flex">
+      <div class="flex flex-col">
+        <div class="flex flex-row text-center items-stretch">
+          <Card>
+            <h2>Data Cleansing</h2>
             Duplicate entries and entries with a missing price were removed.
-          </li>
-        </ul>
-      </Card>
-      <Card>
-        <h2>Data Reduction</h2>
-        <br />
-        <ul style="list-style-type:disc;">
-          <li>
+          </Card>
+          <Card>
+            <h2>Data Reduction</h2>
             Unnecessary columns were removed (e.g longitude and latitude).
-          </li>
-        </ul>
-      </Card>
+          </Card>
+        </div>
+        <div class="flex flex-row">
+          <div class="grow items-center justify-center text-center">
+            <Card>
+              <p class="font-bold text-4xl">1196</p>
+              <p class="text-2xl">entries</p>
+            </Card>
+          </div>
+          <div class="grow items-center justify-center text-center">
+            <Card>
+              <p class="font-bold text-4xl">10</p>
+              <p class="text-2xl">features</p>
+            </Card>
+          </div>
+        </div>
+      </div>
+
       <Card>
         <h2>Data Transformation</h2>
-        <br />
-        <ul style="list-style-type:disc;">
-          <li>
-            Real estate type (House/Lot/Condo Unit), province, region, and
-            degree of urbanization (Highly Urbanized/Non-highly Urbanized) were
-            added as new features
-          </li>
-          <li>Houses include Duplexes, Houses, and Townhouses</li>
-          <li>Lots include Residential Lots and Commercial Lots</li>
-        </ul>
+        Real estate type (House/Lot/Condo Unit), province, region, and degree of
+        urbanization (Highly Urbanized/Non-highly Urbanized) were added as new features
+        Houses include Duplexes, Houses, and Townhouses Lots include Residential
+        Lots and Commercial Lots
       </Card>
     </div>
-    <h2>We ended up with 1196 entries and 10 features.</h2>
   </section>
 
   <br />
@@ -262,27 +264,51 @@
             />
           </div>
           <div>
-            <h2>House Listings</h2>	
+            <h2>House Listings</h2>
             <p>This graph shows that for House Listings:</p>
-            <br>
+            <br />
             <ul style="list-style-type:disc;">
-            <li><strong>Highest Average Price per sqm (Overall & Highly Urbanized):</strong> 
-              <p>The City of Lapu-lapu with <strong>₱175,326.50/sqm</strong></p>
-            </li>
-            <br>
-            <li><strong>Highest Average Price per sqm (Non-highly Urbanized):</strong> 
-              <p>The Municipality of Nasugbu with <strong>₱64,056.94/sqm</strong></p>
-            </li>
-            <br>
-            <li><strong>Lowest Average Price per sqm (Highly Urbanized):</strong> 
-              <p>The City of Zamboanga with <strong>₱25,705.08/sqm</strong></p>
-            </li>
-            <br>
-            <li><strong>Lowest Average Price per sqm (Overall & Non-highly Urbanized):</strong> 
-              <p>The Island Garden City of Samal with <strong>₱17,605.63/sqm</strong></p>
-            </li>
+              <li>
+                <strong
+                  >Highest Average Price per sqm (Overall & Highly Urbanized):</strong
+                >
+                <p>
+                  The City of Lapu-lapu with <strong>₱175,326.50/sqm</strong>
+                </p>
+              </li>
+              <br />
+              <li>
+                <strong
+                  >Highest Average Price per sqm (Non-highly Urbanized):</strong
+                >
+                <p>
+                  The Municipality of Nasugbu with <strong
+                    >₱64,056.94/sqm</strong
+                  >
+                </p>
+              </li>
+              <br />
+              <li>
+                <strong>Lowest Average Price per sqm (Highly Urbanized):</strong
+                >
+                <p>
+                  The City of Zamboanga with <strong>₱25,705.08/sqm</strong>
+                </p>
+              </li>
+              <br />
+              <li>
+                <strong
+                  >Lowest Average Price per sqm (Overall & Non-highly
+                  Urbanized):</strong
+                >
+                <p>
+                  The Island Garden City of Samal with <strong
+                    >₱17,605.63/sqm</strong
+                  >
+                </p>
+              </li>
             </ul>
-        </div>
+          </div>
         </div>
       </Card>
       <Card>
