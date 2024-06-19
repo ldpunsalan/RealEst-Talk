@@ -4,7 +4,9 @@
 
 <main>
   <section id="overview" class="pt-32">
-    <div class="flex flex-row items-center justify-center space-x-4">
+    <div
+      class="flex xs:flex-col sm:flex-row items-center justify-center space-x-4"
+    >
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +44,7 @@
           urban development.
         </p>
       </Card>
-      <div class="flex flex-row">
+      <div class="flex xs:flex-col sm:flex-row">
         <Card>
           <div class="flex items-center space-x-2">
             <svg
@@ -117,7 +119,7 @@
           </p>
         </Card>
       </div>
-      <div class="flex flex-row">
+      <div class="flex xs:flex-col sm:flex-row">
         <Card>
           <div class="flex items-center space-x-2">
             <svg
