@@ -1,5 +1,4 @@
 <script>
-  // test
   import Hero from "./Hero.svelte";
   import Overview from "./Overview.svelte";
   import Data from "./Data.svelte";
