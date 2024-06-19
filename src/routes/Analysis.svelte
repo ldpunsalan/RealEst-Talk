@@ -380,10 +380,8 @@
             class="mx-auto"
           />
           <br />
-          <p>
-            Since our histogram fails to show a bell curve, we cannot assume
-            normality of data. Hence we use the <b>Mann-Whitney U test</b> to obtain
-            a p-value.
+          <p>Since our histogram fails to show a bell curve, we cannot assume normality of data. <br />
+            Hence we use the <b>Mann-Whitney U test</b> to obtain a p-value.
           </p>
           <p>
             With a significance level of 0.05 and a p-value of 1.5365x10<sup
@@ -393,6 +391,80 @@
             for houses in highly-urbanized areas are
             <b>significantly different</b> from less urbanized areas.
           </p>
+        </div>
+      </Card>
+      <Card>
+        <div class="text-center">
+          <div class="flex flex-row space-x-4 justify-center">
+            <svg 
+              width="100px" 
+              height="100px" 
+              xmlns="http://www.w3.org/2000/svg" 
+              fill="none" viewBox="0 0 24 24" 
+              stroke-width="1.5" 
+              stroke="currentColor" 
+              class="size-6">
+              <path 
+                stroke-linecap="round" 
+                stroke-linejoin="round" 
+                d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z" />
+            </svg>	
+            <h2>Condo Unit</h2>
+          </div>
+
+          <p>We check the normality to determine which test to use.</p>
+          <br />
+          <img
+            src="src\lib\images\charts\condohisto.png"
+            alt=""
+            class="mx-auto"
+          />
+          <br />
+          <p>Since our histogram fails to show a bell curve, we cannot assume normality of data. <br />
+            Hence we use the <b>Mann-Whitney U test</b> to obtain a p-value.
+          </p>
+					<p>With a significance level of 0.05 and a p-value of 1.7498x10<sup>-13</sup>, 
+            <b>we reject our null hypothesis</b>. Therefore, the price per sqm for condo units in 
+            highly-urbanized areas are <b>significantly different</b> from less urbanized areas.
+          </p>
+        </div>
+      </Card>
+      <Card>
+        <div class="text-center">
+          <div class="flex flex-row space-x-4 justify-center">
+            <svg 
+              width="100px" 
+              height="100px" 
+              mlns="http://www.w3.org/2000/svg" 
+              fill="none" 
+              viewBox="0 0 24 24" 
+              stroke-width="1.5" 
+              stroke="currentColor" 
+              class="size-6">
+              <path 
+                stroke-linecap="round" 
+                stroke-linejoin="round" 
+                d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
+            </svg>
+            <h2>Lot</h2>
+          </div>
+
+          <p>We check the normality to determine which test to use.</p>
+          <br />
+          <img
+            src="src\lib\images\charts\lothisto.png"
+            alt=""
+            class="mx-auto"
+          />
+          <br />
+          <p>Since our histogram fails to show a bell curve, we cannot assume normality of data. <br />
+            Hence we use the <b>Mann-Whitney U test</b> to obtain a p-value.
+          </p>
+          <p>With a significance level of 0.05 and a p-value of 9.0916x10<sup>-9</sup>, 
+            <b>we reject our null hypothesis</b>. Therefore, the price per sqm for lots in 
+            highly-urbanized areas are <b>significantly different</b> from less urbanized areas.
+          </p>
+        
         </div>
       </Card>
     </div>
