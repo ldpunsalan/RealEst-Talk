@@ -1,7 +1,3 @@
-<script>
-  import Card from "./Card.svelte";
-</script>
-
 <main>
   <section id="top" class="hero-container">
     <div class>
