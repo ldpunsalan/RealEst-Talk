@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+	--font-body: 'Poppins', sans-serif;
+	--font-mono: 'Poppins', monospace;
+	--color-bg-0: #181825;
+	--color-bg-1: #181825;
+	--color-bg-2: #181825;
+	--color-theme-1: #cba6f7;
+	--color-theme-2: #89b4fa;
+	--color-text: #cdd6f4;
+	--column-width: 42rem;
+	--column-margin-top: 4rem;
+	font-family: var(--font-body);
+	color: var(--color-text);
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	background-attachment: fixed;
+	background-color: var(--color-bg-1);
+	background-size: 100vw 100vh;
+}
+
+h1,
+h2,
+p {
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 2.4rem;
+	width: 100%;
+}
+
+h2 {
+	font-size: 1.25rem;
+	color: var(--color-theme-1);
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	line-height: 1.5;
+}
+
+pre {
+	font-size: 16px;
+	font-family: var(--font-mono);
+	background-color: rgba(255, 255, 255, 0.45);
+	border-radius: 3px;
+	box-shadow: 2px 2px 6px rgb(255 255 255 / 25%);
+	padding: 0.5em;
+	overflow-x: auto;
+	color: var(--color-text);
+}
+
+.text-column {
+	display: flex;
+	max-width: 48rem;
+	flex: 0.6;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+input,
+button {
+	font-size: inherit;
+	font-family: inherit;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 0.6;
+}
+
+button:focus:not(:focus-visible) {
+	outline: none;
+}
+
+.visually-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}
