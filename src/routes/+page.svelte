@@ -2,7 +2,7 @@
   import Hero from "./Hero.svelte";
   import Overview from "./Overview.svelte";
   import Data from "./Data.svelte";
-  import Methods from "./Methods.svelte";
+  import Analysis from "./Analysis.svelte";
 </script>
 
 <svelte:head>
@@ -14,5 +14,5 @@
   <Hero />
   <Overview />
   <Data />
-  <Methods />
+  <Analysis />
 </main>

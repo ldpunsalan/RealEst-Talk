@@ -61,7 +61,7 @@
       <div>
         <a
           aria-current={$page.url.pathname === "/" ? "page" : undefined}
-          href="#methods"
+          href="#analysis"
           class="flex justify-center items-center text-center flex-col"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +78,7 @@
             />
           </svg>
 
-          <div>Methods</div></a
+          <div>Analysis</div></a
         >
       </div>
       <div>
