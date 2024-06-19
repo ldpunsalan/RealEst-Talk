@@ -39,7 +39,7 @@
     <div class="flex flex-row space-x-4">
       <Card>
         <img
-          src="src\lib\images\team\ray.png"
+          src="src\images\team\ray.png"
           class="h-auto hover:scale-150 ease-in duration-500 object-cover rounded-full"
           alt=""
         />
@@ -53,7 +53,7 @@
 
       <Card>
         <img
-          src="src\lib\images\team\chase.png"
+          src="src\images\team\chase.png"
           class="h-auto hover:scale-150 ease-in duration-500 object-cover rounded-full"
           alt=""
         />
@@ -66,7 +66,7 @@
       </Card>
       <Card>
         <img
-          src="src\lib\images\team\lara.png"
+          src="src\images\team\lara.png"
           class="h-auto hover:scale-150 ease-in duration-500 object-cover rounded-full"
           alt=""
         />
