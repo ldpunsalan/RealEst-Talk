@@ -8,7 +8,7 @@
 </svelte:head>
 
 <main>
-  <section class="hero-container px-20">
+  <section class="hero-container">
     <Card>
       <div class>
         <div class="flex flex-col">
@@ -31,7 +31,7 @@
       </div></Card
     >
   </section>
-  <section id="overview" class="px-20">
+  <section id="overview" class="">
     <div class="flex flex-row items-center space-x-4">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -53,44 +53,49 @@
         Overview
       </h1>
     </div>
-    <p class="text-center">
-      The Philippine real estate market is influenced by various factors,
-      including economic growth, infrastructure development, and population
-      density. There is a pressing issue of housing affordability, particularly
-      in urban areas, where real estate prices continue to rise, and making
-      homeownership increasingly inaccessible for many segments of the
-      population. This has led to housing insecurity, forced evictions, informal
-      settlements, and social exclusion, exacerbating inequalities and hindering
-      sustainable urban development.
-    </p>
-    <div class="flex flex-row space-x-4">
+    <div class="flex flex-col space-y-0">
       <Card>
-        <h2>Objective</h2>
-        <p>
-          The aim is to assess the affordability of housing, state of urban
-          planning and economic health of the different regions in the country.
+        <p class="text-center">
+          The Philippine real estate market is influenced by various factors,
+          including economic growth, infrastructure development, and population
+          density. There is a pressing issue of housing affordability,
+          particularly in urban areas, where real estate prices continue to
+          rise, and making homeownership increasingly inaccessible for many
+          segments of the population. This has led to housing insecurity, forced
+          evictions, informal settlements, and social exclusion, exacerbating
+          inequalities and hindering sustainable urban development.
         </p>
       </Card>
-      <Card>
-        <h2>Problem</h2>
-        <p>
-          Affordable housing is increasingly becoming a problem amidst the
-          rising prices of real estate in across the country.
-        </p>
-      </Card>
-      <Card>
-        <h2>Solution</h2>
-        <p>
-          Pinpoint areas where housing is becoming inaccessible and expensive
-          through a statistical comparative analysis of real estate prices and
-          the price-to-floor area ratio among property types across different
-          Philippine cities.
-        </p>
-      </Card>
+      <div class="flex flex-row space-x-4">
+        <Card>
+          <h2>Objective</h2>
+          <p>
+            The aim is to assess the affordability of housing, state of urban
+            planning and economic health of the different regions in the
+            country.
+          </p>
+        </Card>
+        <Card>
+          <h2>Problem</h2>
+          <p>
+            Affordable housing is increasingly becoming a problem amidst the
+            rising prices of real estate in across the country.
+          </p>
+        </Card>
+        <Card>
+          <h2>Solution</h2>
+          <p>
+            Pinpoint areas where housing is becoming inaccessible and expensive
+            through a statistical comparative analysis of real estate prices and
+            the price-to-floor area ratio among property types across different
+            Philippine cities.
+          </p>
+        </Card>
+      </div>
     </div>
   </section>
   <br /><br />
-  <section id="overview" class="px-20">
+  <section id="overview" class="">
     <h1
       class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#89b4fa] to-[#cba6f7]"
     >

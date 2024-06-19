@@ -5,9 +5,9 @@
 </script>
 
 <header>
-  <div class="flex fixed top-4 px-4 w-screen w-auto z-50">
+  <div class="flex fixed top-4 px-4 w-full justify-center z-50">
     <nav
-      class="flex flex-col rounded-full bg-[#1e1e2e99] border-[1px] border-[#89b4fa55] p-1 py-3"
+      class="flex flex-row rounded-full bg-[#1e1e2e99] border-[1px] border-[#89b4fa55] backdrop-blur-md p-1 px-4"
     >
       <div>
         <a
