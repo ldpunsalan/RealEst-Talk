@@ -59,59 +59,58 @@
           urban centers.
         </p>
       </Card>
-      <Card>
-        <div class="flex items-center space-x-2">
-          <div class="flex grow">
-            <h2>
-              Strong demand but limited supply exacerbates housing
-              unaffordability.
-            </h2>
+      
+      <button on:click={toggle1}>
+        <Card>
+          <div class="flex items-center space-x-2">
+            <div class="flex grow">
+              <h2>
+                Strong demand but limited supply exacerbates housing
+                unaffordability.
+              </h2>
+            </div>
+            <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+            </div>
           </div>
-
-          <div>
-            <button on:click={toggle1}
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                />
-              </svg>
-            </button>
-          </div>
-        </div>
-
-        {#if point1}
-          <p>
-            Looking at the bar graph above, it can be seen that in general, when
-            it comes to the different types of real estate (lots, houses, condo
-            units), the difference is significantly larger between lots in
-            highly urbanized locations compared to less urbanized locations. The
-            larger price difference for lots suggests a higher demand for land
-            in urban centers, which might be due to commercial development
-            opportunities. On the other hand, the difference is least observed
-            for condo units. The observed differences in price gaps between
-            highly and less urbanized areas for different real estate types
-            (especially lots and houses) indicate a strong demand but limited
-            supply of affordable land and housing. This imbalance exacerbates
-            housing unaffordability as more people compete for fewer available
-            properties, pushing prices higher.
-          </p>
-        {/if}
-      </Card>
+          {#if point1}
+            <p>
+              Looking at the bar graph above, it can be seen that in general, when
+              it comes to the different types of real estate (lots, houses, condo
+              units), the difference is significantly larger between lots in
+              highly urbanized locations compared to less urbanized locations. The
+              larger price difference for lots suggests a higher demand for land
+              in urban centers, which might be due to commercial development
+              opportunities. On the other hand, the difference is least observed
+              for condo units. The observed differences in price gaps between
+              highly and less urbanized areas for different real estate types
+              (especially lots and houses) indicate a strong demand but limited
+              supply of affordable land and housing. This imbalance exacerbates
+              housing unaffordability as more people compete for fewer available
+              properties, pushing prices higher.
+            </p>
+          {/if}
+        </Card>
+      </button>
+      <button on:click={toggle2}>
       <Card>
         <div class="flex items-center space-x-2">
           <h2 class="flex grow">Good investment opportunities.</h2>
           <div>
-            <button on:click={toggle2}
-              ><svg
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -125,7 +124,6 @@
                   d="m19.5 8.25-7.5 7.5-7.5-7.5"
                 />
               </svg>
-            </button>
           </div>
         </div>
         {#if point2}
@@ -142,14 +140,15 @@
           </p>
         {/if}
       </Card>
+      </button>
+      <button on:click={toggle3}>
       <Card>
         <div class="flex items-center space-x-2">
           <h2 class="flex grow">
             High-end developments can lead to gentrification.
           </h2>
           <div>
-            <button on:click={toggle3}
-              ><svg
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -163,7 +162,6 @@
                   d="m19.5 8.25-7.5 7.5-7.5-7.5"
                 />
               </svg>
-            </button>
           </div>
         </div>
         {#if point3}
@@ -188,6 +186,7 @@
           </p>
         {/if}
       </Card>
+      </button>
       <Card>
         <div class="flex items-center space-x-2">
           <svg
