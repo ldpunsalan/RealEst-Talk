@@ -264,6 +264,7 @@
     </h1>
     </div>
     <div class="flex flex-row space-x-4">
+      <div class="grid grid-cols-3 gap-x-3">
       <Card>
         <h2>Data Cleansing</h2>
         <br />
@@ -333,10 +334,10 @@
     <div class="grid grid-rows-3 grid-flow-col gap-4">
       <Card>
         <div class="flex flex-row gap-10">
-          <div class="mb-4 w-3/4">
+          <div class="mb-4 w-3/4 z-20">
             <img
-              src="src\lib\images\charts\house_labeled.png"
-              class="h-auto rounded-lg"
+              src="src\lib\images\charts\house_opaque.png"
+              class="h-auto hover:scale-150 ease-in duration-500"
               alt=""
             />
           </div>
@@ -366,10 +367,10 @@
       </Card>
       <Card>
         <div class="flex flex-row gap-10">
-          <div class="mb-4 w-3/4">
+          <div class="mb-4 w-3/4 z-20">
             <img
-              src="src\lib\images\charts\house_labeled.png"
-              class="h-auto rounded-lg"
+              src="src\lib\images\charts\condo_opaque.png"
+              class="h-auto hover:scale-150 ease-in duration-500 object-cover"
               alt=""
             />
           </div>
@@ -399,10 +400,10 @@
       </Card>
       <Card>
         <div class="flex flex-row gap-10">
-          <div class="mb-4 w-3/4">
+          <div class="mb-4 w-3/4 z-20">
             <img
-              src="src\lib\images\charts\lot_labeled.png"
-              class="h-auto rounded-lg"
+              src="src\lib\images\charts\lot_opaque.png"
+              class="h-auto hover:scale-150 ease-in duration-500"
               alt=""
             />
           </div>
