@@ -1,5 +1,8 @@
 <script>
   import Card from "./Card.svelte";
+  import ray from "$lib/images/team/ray.png";
+  import chase from "$lib/images/team/chase.png"
+  import lara from "$lib/images/team/lara.png"
 </script>
 
 <main>
@@ -39,7 +42,7 @@
     <div class="flex flex-row space-x-4">
       <Card>
         <img
-          src="src\lib\images\team\ray.png"
+          src={ray}
           class="h-auto hover:scale-150 ease-in duration-500 object-cover rounded-full"
           alt=""
         />
@@ -53,7 +56,7 @@
 
       <Card>
         <img
-          src="src\lib\images\team\chase.png"
+          src={chase}
           class="h-auto hover:scale-150 ease-in duration-500 object-cover rounded-full"
           alt=""
         />
@@ -66,7 +69,7 @@
       </Card>
       <Card>
         <img
-          src="src\lib\images\team\lara.png"
+          src={lara}
           class="h-auto hover:scale-150 ease-in duration-500 object-cover rounded-full"
           alt=""
         />
