@@ -246,48 +246,24 @@
             />
           </div>
           <div>
-            <h2>House Listings</h2>
-            <p>This graph shows that for House Listings:</p>
+            <h2>Condo Unit Listings</h2>
+            <p>This graph shows that for Condo Unit Listings:</p>
             <br />
             <ul style="list-style-type:disc;">
-              <li>
-                <strong
-                  >Highest Average Price per sqm (Overall & Highly Urbanized):</strong
-                >
-                <p>
-                  The City of Lapu-lapu with <strong>₱175,326.50/sqm</strong>
-                </p>
+              <li><strong>Highest Average Price per sqm (Overall & Non-highly Urbanized):</strong> 
+                <p>The Municipality of Malay with <strong>₱545,733.33/sqm</strong></p>
               </li>
-              <br />
-              <li>
-                <strong
-                  >Highest Average Price per sqm (Non-highly Urbanized):</strong
-                >
-                <p>
-                  The Municipality of Nasugbu with <strong
-                    >₱64,056.94/sqm</strong
-                  >
-                </p>
+              <br>
+              <li><strong>Highest Average Price per sqm (Highly Urbanized):</strong> 
+                <p>The City of Makati with <strong>₱361,331.92/sqm</strong></p>
               </li>
-              <br />
-              <li>
-                <strong>Lowest Average Price per sqm (Highly Urbanized):</strong
-                >
-                <p>
-                  The City of Zamboanga with <strong>₱25,705.08/sqm</strong>
-                </p>
+              <br>
+              <li><strong>Lowest Average Price per sqm (Highly Urbanized):</strong> 
+                <p>The City of Bacolod with <strong>₱143,808.05/sqm</strong></p>
               </li>
-              <br />
-              <li>
-                <strong
-                  >Lowest Average Price per sqm (Overall & Non-highly
-                  Urbanized):</strong
-                >
-                <p>
-                  The Island Garden City of Samal with <strong
-                    >₱17,605.63/sqm</strong
-                  >
-                </p>
+              <br>
+              <li><strong>Lowest Average Price per sqm (Overall & Non-highly Urbanized):</strong> 
+                <p>The Municipality of Silang with <strong>₱34,814.81/sqm</strong></p>
               </li>
             </ul>
           </div>
@@ -303,54 +279,61 @@
             />
           </div>
           <div>
-            <h2>House Listings</h2>
-            <p>This graph shows that for House Listings:</p>
+            <h2>Lot Listings</h2>
+            <p>This graph shows that for Lot Listings:</p>
             <br />
             <ul style="list-style-type:disc;">
-              <li>
-                <strong
-                  >Highest Average Price per sqm (Overall & Highly Urbanized):</strong
-                >
-                <p>
-                  The City of Lapu-lapu with <strong>₱175,326.50/sqm</strong>
-                </p>
+              <li><strong>Highest Average Price per sqm (Overall & Highly Urbanized):</strong> 
+                <p>The City of Muntinlupa with <strong>₱435,000.00/sqm</strong></p>
               </li>
-              <br />
-              <li>
-                <strong
-                  >Highest Average Price per sqm (Non-highly Urbanized):</strong
-                >
-                <p>
-                  The Municipality of Nasugbu with <strong
-                    >₱64,056.94/sqm</strong
-                  >
-                </p>
+              <br>
+              <li><strong>Highest Average Price per sqm (Non-highly Urbanized):</strong> 
+                <p>The City of Carmona with <strong>₱54,296.00/sqm</strong></p>
               </li>
-              <br />
-              <li>
-                <strong>Lowest Average Price per sqm (Highly Urbanized):</strong
-                >
-                <p>
-                  The City of Zamboanga with <strong>₱25,705.08/sqm</strong>
-                </p>
+              <br>
+              <li><strong>Lowest Average Price per sqm (Highly Urbanized):</strong> 
+                <p>The City of Zamboanga with <strong>₱39,234.95/sqm</strong></p>
               </li>
-              <br />
-              <li>
-                <strong
-                  >Lowest Average Price per sqm (Overall & Non-highly
-                  Urbanized):</strong
-                >
-                <p>
-                  The Island Garden City of Samal with <strong
-                    >₱17,605.63/sqm</strong
-                  >
-                </p>
+              <br>
+              <li><strong>Lowest Average Price per sqm (Overall & Non-highly Urbanized):</strong> 
+                <p>The Municipality of Polomolok with <strong>₱330.00/sqm</strong></p>
               </li>
             </ul>
           </div>
         </div>
       </Card>
     </div>
+    <h2>
+      2. How do real estate prices vary across different cities in the
+      Philippines?
+    </h2>
+    <Card>
+      <div class="grid grid-cols-2 gap-10">
+        <div class="mb-4 z-20">
+          <img
+            src="src\lib\images\charts\barchart_opaque.png"
+            class="h-auto hover:scale-150 ease-in duration-500"
+            alt=""
+          />
+        </div>
+        <div>
+          <h2>Insights</h2>	
+          <br>
+          <p>This graph shows that, on average:</p>
+          <br>
+          <ul style="list-style-type:disc;">
+            <li>House Listings in Highly Urbanized Locations are more expensive than in Non-highly Urbanized Locations by <strong>₱54,995.12</strong> (~2.81x more).
+            </li>
+            <br>
+            <li>Lot Listings in Highly Urbanized Locations are more expensive than in Non-highly Urbanized Locations by <strong>₱304,695.60</strong> (~10.50x more).
+            </li>
+            <br>
+            <li>Condo Unit Listings in Highly Urbanized Locations are more expensive than in Non-highly Urbanized Locations by <strong>₱90,200.02</strong> (~1.57x more).
+            </li>
+            </ul>
+        </div>
+      </div>
+    </Card>
   </section>
 </main>
 
