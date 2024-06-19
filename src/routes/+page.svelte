@@ -79,13 +79,18 @@
         fill="none"
         viewBox="0 0 24 24"
         stroke-width="1.5"
-        stroke="var(--color-theme-2)"
+        stroke="currentColor"
         class="size-12"
       >
         <path
           stroke-linecap="round"
           stroke-linejoin="round"
-          d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+          d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"
+        />
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"
         />
       </svg>
       <h1
@@ -95,39 +100,46 @@
       </h1>
     </div>
     <div class="grid grid-cols-4 text-center">
-          <Card>
-            <h2>Data Cleansing</h2>
-            Duplicate entries and entries with a missing price were removed.
-            <br><br>
-          </Card>
-          <Card>
-            <h2>Data Reduction</h2>
-            Unnecessary columns were removed (e.g longitude and latitude).
-          </Card>
-        <div class="grid col-span-2 row-span-2">
-          <Card>
-            <h2>Data Transformation</h2>
-            <br>
-            <p>Added real estate type as a feature (house / condo unit / lot)  - house type encompasses houses, 
-              townhouses, duplexes while lots encompasses commercial and residential </p>
-              <br>
-            <p>Added degree of urbanization (highly urbanized / non-highly urbanized) 
-              based on <a href="https://cmci.dti.gov.ph/rankings-data.php?unit=Highly%20Urbanized%20Cities" style="color:#89b4fa"><u>DTI 2023 city rankings.</u></a>
-            </p>
-          </Card>
-        </div>
-          <div class="grow items-center justify-center text-center">
-            <Card>
-              <p class="font-bold text-4xl">1196</p>
-              <p class="text-2xl">entries</p>
-            </Card>
-          </div>
-          <div class="grow items-center justify-center text-center">
-            <Card>
-              <p class="font-bold text-4xl">10</p>
-              <p class="text-2xl">features</p>
-            </Card>
-          </div>
+      <Card>
+        <h2>Data Cleansing</h2>
+        Duplicate entries and entries with a missing price were removed.
+        <br /><br />
+      </Card>
+      <Card>
+        <h2>Data Reduction</h2>
+        Unnecessary columns were removed (e.g longitude and latitude).
+      </Card>
+      <div class="grid col-span-2 row-span-2">
+        <Card>
+          <h2>Data Transformation</h2>
+          <br />
+          <p>
+            Added real estate type as a feature (house / condo unit / lot) -
+            house type encompasses houses, townhouses, duplexes while lots
+            encompasses commercial and residential
+          </p>
+          <br />
+          <p>
+            Added degree of urbanization (highly urbanized / non-highly
+            urbanized) based on <a
+              href="https://cmci.dti.gov.ph/rankings-data.php?unit=Highly%20Urbanized%20Cities"
+              style="color:#89b4fa"><u>DTI 2023 city rankings.</u></a
+            >
+          </p>
+        </Card>
+      </div>
+      <div class="grow items-center justify-center text-center">
+        <Card>
+          <p class="font-bold text-4xl">1196</p>
+          <p class="text-2xl">entries</p>
+        </Card>
+      </div>
+      <div class="grow items-center justify-center text-center">
+        <Card>
+          <p class="font-bold text-4xl">10</p>
+          <p class="text-2xl">features</p>
+        </Card>
+      </div>
     </div>
   </section>
 
@@ -138,13 +150,18 @@
         fill="none"
         viewBox="0 0 24 24"
         stroke-width="1.5"
-        stroke="var(--color-theme-2)"
+        stroke="currentColor"
         class="size-12"
       >
         <path
           stroke-linecap="round"
           stroke-linejoin="round"
-          d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+          d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"
+        />
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"
         />
       </svg>
       <h1
@@ -154,11 +171,13 @@
       </h1>
     </div>
     <br />
+    <div class="flex w-full justify-center grow">
+      <h2>
+        1. How do real estate prices vary across different cities in the
+        Philippines?
+      </h2>
+    </div>
 
-    <h2>
-      1. How do real estate prices vary across different cities in the
-      Philippines?
-    </h2>
     <div class="grid grid-rows-3 grid-flow-col gap-4">
       <Card>
         <div class="flex flex-row gap-10">
