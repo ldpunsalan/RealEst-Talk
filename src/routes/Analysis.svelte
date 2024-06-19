@@ -5,8 +5,8 @@
   import condohisto from "$lib/images/charts/condohisto.png";
   import house_opaque from "$lib/images/charts/house_opaque.png";
   import househisto from "$lib/images/charts/househisto.png";
-  import lot_opaque from "$lib/images/charts lot_opaque.png";
-  import lothisto from "$lib/images/charts lothisto.png";
+  import lot_opaque from "$lib/images/charts/lot_opaque.png";
+  import lothisto from "$lib/images/charts/lothisto.png";
 </script>
 
 <main>
