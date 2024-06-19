@@ -15,6 +15,8 @@
   }
 
   .card:hover {
-    background: linear-gradient(to right, #cba6f77a, #89b4fa76) border-box;
+    border: 1px solid transparent;
+    border-color: #cdd6f47a;
+    background: linear-gradient(to right, #cba6f720, #89b4fa20) border-box;
   }
 </style>

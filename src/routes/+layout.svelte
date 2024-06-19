@@ -11,9 +11,7 @@
   </main>
 
   <footer>
-    <p>
-      visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit
-    </p>
+    <p class="text-[#cdd6f450]">© RealEst Talk. All rights reserved 2024.</p>
   </footer>
 </div>
 

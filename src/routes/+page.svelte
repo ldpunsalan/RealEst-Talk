@@ -19,13 +19,18 @@
         fill="none"
         viewBox="0 0 24 24"
         stroke-width="1.5"
-        stroke="var(--color-theme-2)"
+        stroke="currentColor"
         class="size-12"
       >
         <path
           stroke-linecap="round"
           stroke-linejoin="round"
-          d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+          d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"
+        />
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"
         />
       </svg>
       <h1
@@ -58,16 +63,14 @@
           <button>
             <a
               href="https://docs.google.com/spreadsheets/d/1kvwDaHs-RAxw1JMh26u4GkBeTQdy41mho1BkSPY33Pg/edit?usp=sharing"
-              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-              >Let's take a look at our data</a
+            >
+              Let's take a look at our data!</a
             >
           </button>
         </div>
       </Card>
     </div>
   </section>
-
-  <br /> <br />
 
   <section class="pt-32">
     <div class="flex flex-row items-center space-x-4">
@@ -128,7 +131,8 @@
       </Card>
     </div>
   </section>
-  <section>
+
+  <section class="pt-32">
     <div class="flex flex-row items-center space-x-4">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -329,13 +333,12 @@
         </div>
       </Card>
     </div>
-    <h2>We ended up with 1196 entries and 10 features.</h2>
   </section>
 </main>
 
 <style>
   svg {
-    color: var(--color-theme-1);
+    color: var(--color-theme-2);
   }
   section {
     display: flex;
@@ -354,5 +357,17 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    color: var(--color-bg-1);
+    background: linear-gradient(to right, #cba6f7, #89b4fa) border-box;
+  }
+
+  button:hover {
+    color: var(--color-text);
+    background:
+      linear-gradient(#1e1e2e 0 0) padding-box padding-box,
+      linear-gradient(to right, #cba6f7, #89b4fa) border-box;
   }
 </style>
