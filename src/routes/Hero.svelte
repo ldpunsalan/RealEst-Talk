@@ -1,11 +1,11 @@
+<script>
+  import logo from "$lib/images/logo.svg";
+</script>
+
 <main>
   <section id="top" class="hero-container">
     <div class>
-      <img
-        src="/src/lib/images/logo.svg"
-        alt="Logo"
-        class="w-1/2 h-1/2 mx-auto"
-      />
+      <img src={logo} alt="Logo" class="w-1/2 h-1/2 mx-auto" />
       <br />
       <div class="flex flex-col">
         <h1
