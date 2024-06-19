@@ -365,26 +365,70 @@
         </div>
       </Card>
       <Card>
-        <h2>Data Reduction</h2>
-        <br />
-        <ul style="list-style-type:disc;">
-          <li>
-            Unnecessary columns were removed (e.g longitude and latitude).
-          </li>
-        </ul>
+        <div class="flex flex-row gap-10">
+          <div class="mb-4 w-3/4">
+            <img
+              src="src\lib\images\charts\house_labeled.png"
+              class="h-auto rounded-lg"
+              alt=""
+            />
+          </div>
+          <div>
+            <h2>House Listings</h2>	
+            <p>This graph shows that for House Listings:</p>
+            <br>
+            <ul style="list-style-type:disc;">
+            <li><strong>Highest Average Price per sqm (Overall & Highly Urbanized):</strong> 
+              <p>The City of Lapu-lapu with <strong>₱175,326.50/sqm</strong></p>
+            </li>
+            <br>
+            <li><strong>Highest Average Price per sqm (Non-highly Urbanized):</strong> 
+              <p>The Municipality of Nasugbu with <strong>₱64,056.94/sqm</strong></p>
+            </li>
+            <br>
+            <li><strong>Lowest Average Price per sqm (Highly Urbanized):</strong> 
+              <p>The City of Zamboanga with <strong>₱25,705.08/sqm</strong></p>
+            </li>
+            <br>
+            <li><strong>Lowest Average Price per sqm (Overall & Non-highly Urbanized):</strong> 
+              <p>The Island Garden City of Samal with <strong>₱17,605.63/sqm</strong></p>
+            </li>
+            </ul>
+        </div>
+        </div>
       </Card>
       <Card>
-        <h2>Data Transformation</h2>
-        <br />
-        <ul style="list-style-type:disc;">
-          <li>
-            Real estate type (House/Lot/Condo Unit), province, region, and
-            degree of urbanization (Highly Urbanized/Non-highly Urbanized) were
-            added as new features
-          </li>
-          <li>Houses include Duplexes, Houses, and Townhouses</li>
-          <li>Lots include Residential Lots and Commercial Lots</li>
-        </ul>
+        <div class="flex flex-row gap-10">
+          <div class="mb-4 w-3/4">
+            <img
+              src="src\lib\images\charts\lot_labeled.png"
+              class="h-auto rounded-lg"
+              alt=""
+            />
+          </div>
+          <div>
+            <h2>House Listings</h2>	
+            <p>This graph shows that for House Listings:</p>
+            <br>
+            <ul style="list-style-type:disc;">
+            <li><strong>Highest Average Price per sqm (Overall & Highly Urbanized):</strong> 
+              <p>The City of Lapu-lapu with <strong>₱175,326.50/sqm</strong></p>
+            </li>
+            <br>
+            <li><strong>Highest Average Price per sqm (Non-highly Urbanized):</strong> 
+              <p>The Municipality of Nasugbu with <strong>₱64,056.94/sqm</strong></p>
+            </li>
+            <br>
+            <li><strong>Lowest Average Price per sqm (Highly Urbanized):</strong> 
+              <p>The City of Zamboanga with <strong>₱25,705.08/sqm</strong></p>
+            </li>
+            <br>
+            <li><strong>Lowest Average Price per sqm (Overall & Non-highly Urbanized):</strong> 
+              <p>The Island Garden City of Samal with <strong>₱17,605.63/sqm</strong></p>
+            </li>
+            </ul>
+        </div>
+        </div>
       </Card>
     </div>
     <h2>We ended up with 1196 entries and 10 features.</h2>
