@@ -59,7 +59,7 @@
               d="M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5"
             />
           </svg>
-          <h2>Objective</h2>
+          <h2>Strong demand but limited supply exacerbates housing unaffordability. </h2>
         </div>
         <p>
           Looking at the bar graph above, it can be seen that in general, when
@@ -93,7 +93,7 @@
               d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"
             />
           </svg>
-          <h2>Problem</h2>
+          <h2>Good investment opportunities.</h2>
         </div>
         <p>
           The tree maps for each real estate type also reinforce the fact that
@@ -124,7 +124,7 @@
             />
           </svg>
 
-          <h2>Solution</h2>
+          <h2>High-end developments can lead to gentrification.</h2>
         </div>
         <p>
           The tree map for lots show that the average price per sqm for real
