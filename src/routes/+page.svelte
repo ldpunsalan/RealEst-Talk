@@ -66,7 +66,7 @@
           inequalities and hindering sustainable urban development.
         </p>
       </Card>
-      <div class="flex flex-row space-x-4">
+      <div class="flex flex-row">
         <Card>
           <div class="flex items-center space-x-2">
             <svg
