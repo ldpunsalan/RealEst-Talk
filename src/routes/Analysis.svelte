@@ -326,6 +326,29 @@
           (price per square meter), we can use either the independent t-test or
           the Mann-Whitney U test depending on the normality of our data.
         </p>
+        <br /> <br />
+        <button class="flex flex-row space-x-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+            />
+          </svg>
+
+          <a
+            href="https://github.com/ldpunsalan/RealEst-Talk/blob/main/Data%20Analysis/StatisticalTest.ipynb"
+          >
+            Let's take a look at our tests!</a
+          >
+        </button>
       </Card>
       <Card>
         <div class="text-center">
@@ -377,7 +400,30 @@
 </main>
 
 <style>
+  button {
+    position: relative;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    color: var(--color-bg-1);
+    background: linear-gradient(to right, #cba6f7, #89b4fa) border-box;
+  }
+
+  button:hover {
+    color: var(--color-text);
+    background:
+      linear-gradient(#1e1e2e 0 0) padding-box padding-box,
+      linear-gradient(to right, #cba6f7, #89b4fa) border-box;
+  }
+
+  button:hover > * {
+    color: var(--color-text);
+  }
+
   svg {
-    color: var(--color-theme-2);
+    color: var(--color-bg-0);
   }
 </style>
