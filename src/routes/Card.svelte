@@ -18,5 +18,6 @@
     border: 1px solid transparent;
     border-color: #cdd6f47a;
     background: linear-gradient(45deg, #1e1e2e, #cba6f720) border-box;
+    transition: 0.5s linear;
   }
 </style>
