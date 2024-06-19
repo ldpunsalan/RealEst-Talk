@@ -38,7 +38,7 @@
         fill="none"
         viewBox="0 0 24 24"
         stroke-width="1.5"
-        stroke="var(--color-theme-1)"
+        stroke="var(--color-theme-2)"
         class="size-12"
       >
         <path
@@ -48,13 +48,13 @@
         />
       </svg>
       <h1
-        class="text-left bg-clip-text bg-clip-text text-transparent bg-gradient-to-r from-[#cba6f7] to-[#89b4fa]"
+        class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#89b4fa] to-[#cba6f7]"
       >
         Overview
       </h1>
     </div>
-    <div class="flex flex-col space-y-0">
-      <Card>
+    <div class="flex flex-col">
+      <Card class="flex">
         <p class="text-center">
           The Philippine real estate market is influenced by various factors,
           including economic growth, infrastructure development, and population
@@ -68,7 +68,7 @@
       </Card>
       <div class="flex flex-row space-x-4">
         <Card>
-          <div class="flex space-x-2">
+          <div class="flex items-center space-x-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -92,7 +92,7 @@
           </p>
         </Card>
         <Card>
-          <div class="flex space-x-2">
+          <div class="flex items-center space-x-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -115,7 +115,7 @@
           </p>
         </Card>
         <Card>
-          <div class="flex space-x-2">
+          <div class="flex items-center space-x-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -162,7 +162,7 @@
     </div>
   </section>
   <br /><br />
-  <section>
+  <section id="data" class="pt-32">
     <h1
       class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#89b4fa] to-[#cba6f7]"
     >
@@ -265,6 +265,9 @@
 </main>
 
 <style>
+  svg {
+    color: var(--color-theme-1);
+  }
   section {
     display: flex;
     flex-direction: column;

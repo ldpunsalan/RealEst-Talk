@@ -6,7 +6,7 @@
   .card {
     background-image: radial-gradient(circle at center, #ffffff2b, #11111b7a);
     border-radius: 15px;
-    padding: 40px 50px;
+    padding: 30px 30px;
     margin: 10px 10px;
     position: relative;
     border: 1px solid transparent;
