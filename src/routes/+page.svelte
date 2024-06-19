@@ -220,21 +220,36 @@
     </h2>
     <div class="grid grid-rows-3 grid-flow-col gap-4">
       <Card>
-        <div class="flex flex-row">
-          <div class="mb-4">
+        <div class="flex flex-row gap-10">
+          <div class="mb-4 w-3/4">
             <img
-              src="src\lib\images\logo.png"
-              class="h-auto max-w-full rounded-lg"
+              src="src\lib\images\charts\house_labeled.png"
+              class="h-auto rounded-lg"
               alt=""
             />
           </div>
-          <h2>Data Cleansing</h2>
-          <br />
-          <ul style="list-style-type:disc;">
-            <li>
-              Duplicate entries and entries with a missing price were removed.
+          <div>
+            <h2>House Listings</h2>	
+            <p>This graph shows that for House Listings:</p>
+            <br>
+            <ul style="list-style-type:disc;">
+            <li><strong>Highest Average Price per sqm (Overall & Highly Urbanized):</strong> 
+              <p>The City of Lapu-lapu with <strong>₱175,326.50/sqm</strong></p>
             </li>
-          </ul>
+            <br>
+            <li><strong>Highest Average Price per sqm (Non-highly Urbanized):</strong> 
+              <p>The Municipality of Nasugbu with <strong>₱64,056.94/sqm</strong></p>
+            </li>
+            <br>
+            <li><strong>Lowest Average Price per sqm (Highly Urbanized):</strong> 
+              <p>The City of Zamboanga with <strong>₱25,705.08/sqm</strong></p>
+            </li>
+            <br>
+            <li><strong>Lowest Average Price per sqm (Overall & Non-highly Urbanized):</strong> 
+              <p>The Island Garden City of Samal with <strong>₱17,605.63/sqm</strong></p>
+            </li>
+            </ul>
+        </div>
         </div>
       </Card>
       <Card>
