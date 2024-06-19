@@ -10,13 +10,14 @@
     position: relative;
     border: 1px solid transparent;
     background:
-      linear-gradient(#1e1e2e 0 0) padding-box padding-box,
-      linear-gradient(to right, #cba6f7, #89b4fa) border-box;
+      linear-gradient(45deg, #181825, #252538) padding-box padding-box,
+      linear-gradient(to right, #cba6f77c, #89b4fa79) border-box;
   }
 
   .card:hover {
     border: 1px solid transparent;
     border-color: #cdd6f47a;
-    background: linear-gradient(to right, #cba6f720, #89b4fa20) border-box;
+    background: linear-gradient(45deg, #1e1e2e, #cba6f720) border-box;
+    transition: 0.5s linear;
   }
 </style>

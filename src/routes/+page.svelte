@@ -1,7 +1,10 @@
 <script>
-  import Card from "./Card.svelte";
   import Hero from "./Hero.svelte";
   import Overview from "./Overview.svelte";
+  import Data from "./Data.svelte";
+  import Analysis from "./Analysis.svelte";
+  import Results from "./Results.svelte";
+  import Card from "./Card.svelte";
 </script>
 
 <svelte:head>
@@ -12,6 +15,9 @@
 <main>
   <Hero />
   <Overview />
+  <Data />
+  <Analysis />
+  <Results />
   <section id="data" class="pt-32">
     <div class="flex flex-row items-center space-x-4">
       <svg
@@ -387,39 +393,3 @@
   </section>
 
 </main>
-
-<style>
-  svg {
-    color: var(--color-theme-2);
-  }
-  section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 0.6;
-  }
-
-  h1 {
-    width: 100%;
-  }
-
-  button {
-    position: relative;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    border-radius: 15px;
-    padding: 10px 20px;
-    border: 1px solid transparent;
-    color: var(--color-bg-1);
-    background: linear-gradient(to right, #cba6f7, #89b4fa) border-box;
-  }
-
-  button:hover {
-    color: var(--color-text);
-    background:
-      linear-gradient(#1e1e2e 0 0) padding-box padding-box,
-      linear-gradient(to right, #cba6f7, #89b4fa) border-box;
-  }
-</style>

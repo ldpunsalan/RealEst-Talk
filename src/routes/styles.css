@@ -35,6 +35,7 @@ p {
 
 h1 {
 	font-size: 2.4rem;
+	width: 100%;
 }
 
 h2 {
@@ -72,6 +73,14 @@ input,
 button {
 	font-size: inherit;
 	font-family: inherit;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 0.6;
 }
 
 button:focus:not(:focus-visible) {
