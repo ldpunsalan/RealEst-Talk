@@ -328,8 +328,8 @@
         </p>
       </Card>
       <Card>
-        <div class="items-center justify-center text-center">
-          <div class="flex flex-row space-x-4">
+        <div class="text-center">
+          <div class="flex flex-row space-x-4 justify-center">
             <svg
               width="100px"
               height="100px"
@@ -348,15 +348,15 @@
             </svg>
             <h2>House</h2>
           </div>
+
           <p>We check the normality to determine which test to use.</p>
           <br />
-          <div class="mb-4 w-3/4 z-20">
-            <img
-              src="src\lib\images\charts\househisto.png"
-              class="h-auto hover:scale-150 ease-in duration-500"
-              alt=""
-            />
-          </div>
+          <img
+            src="src\lib\images\charts\househisto.png"
+            alt=""
+            class="mx-auto"
+          />
+          <br />
           <p>
             Since our histogram fails to show a bell curve, we cannot assume
             normality of data. Hence we use the <b>Mann-Whitney U test</b> to obtain
