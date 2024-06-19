@@ -4,7 +4,7 @@
 
 <main>
   <section id="team" class="pt-32">
-    <div class="flex flex-row items-center space-x-4">
+    <div class="flex flex-row justify-content items-center space-x-4">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -36,13 +36,14 @@
         identify the areas where housing is becoming unaffordable.
       </p>
     </Card>
-    <div class="flex flex-row space-x-4 items-center">
+    <div class="flex flex-row space-x-4">
       <Card>
         <img
           src="src\lib\images\team\ray.png"
           class="h-auto hover:scale-150 ease-in duration-500 object-cover rounded-full"
           alt=""
         />
+        <br />
         <h2>Ray Nuñez</h2>
         <p class="text-center">
           a computer science student interested in data science, bioinformatics,
@@ -56,6 +57,7 @@
           class="h-auto hover:scale-150 ease-in duration-500 object-cover rounded-full"
           alt=""
         />
+        <br />
         <h2>Chase Gonzaga</h2>
         <p class="text-center">
           a computer science student interested in web development, game
@@ -68,6 +70,7 @@
           class="h-auto hover:scale-150 ease-in duration-500 object-cover rounded-full"
           alt=""
         />
+        <br />
         <h2>Lara Punsalan</h2>
         <p class="text-center">
           a computer science student interested in UI/UX, web development, and
