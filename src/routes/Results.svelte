@@ -1,5 +1,21 @@
 <script>
   import Card from "./Card.svelte";
+
+  let point1 = false;
+  let point2 = false;
+  let point3 = false;
+
+  const toggle1 = () => {
+    point1 = !point1;
+  };
+
+  const toggle2 = () => {
+    point2 = !point2;
+  };
+
+  const toggle3 = () => {
+    point3 = !point3;
+  };
 </script>
 
 <main>
@@ -45,105 +61,132 @@
       </Card>
       <Card>
         <div class="flex items-center space-x-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="var(--color-theme-1)"
-            class="size-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5"
-            />
-          </svg>
-          <h2>Strong demand but limited supply exacerbates housing unaffordability. </h2>
-        </div>
-        <p>
-          Looking at the bar graph above, it can be seen that in general, when
-          it comes to the different types of real estate (lots, houses, condo
-          units), the difference is significantly larger between lots in highly
-          urbanized locations compared to less urbanized locations. The larger
-          price difference for lots suggests a higher demand for land in urban
-          centers, which might be due to commercial development opportunities.
-          On the other hand, the difference is least observed for condo units.
-          The observed differences in price gaps between highly and less
-          urbanized areas for different real estate types (especially lots and
-          houses) indicate a strong demand but limited supply of affordable land
-          and housing. This imbalance exacerbates housing unaffordability as
-          more people compete for fewer available properties, pushing prices
-          higher.
-        </p>
-      </Card>
-      <Card>
-        <div class="flex items-center space-x-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="var(--color-theme-1)"
-            class="size-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"
-            />
-          </svg>
-          <h2>Good investment opportunities.</h2>
-        </div>
-        <p>
-          The tree maps for each real estate type also reinforce the fact that
-          real estate located in highly urbanized cities (colored blue) have a
-          more expensive price per square meter compared to less urbanized
-          cities (colored yellow) since across different real estate types, most
-          of the blue squares are larger. For houses, Zamboanga proves to be an
-          outlier by being a highly urbanized city with house pricing on the
-          cheaper side. Recognizing outliers like Zamboanga, where house prices
-          are cheaper despite being a highly urbanized city, can inform the
-          public of good investment opportunities.
-        </p>
-      </Card>
-      <Card>
-        <div class="flex items-center space-x-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="var(--color-theme-1)"
-            class="size-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z"
-            />
-          </svg>
+          <div class="flex grow">
+            <h2>
+              Strong demand but limited supply exacerbates housing
+              unaffordability.
+            </h2>
+          </div>
 
-          <h2>High-end developments can lead to gentrification.</h2>
+          <div>
+            <button on:click={toggle1}
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
-        <p>
-          The tree map for lots show that the average price per sqm for real
-          estate lots in Muntinlupa is a lot larger than the rest of the
-          locations represented in the data. Upon closer look, the listings for
-          Muntinlupa fall under Alabang which is home to luxury properties such
-          as real estate within the Ayala Alabang Village (one of the most
-          expensive subdivisions in the Philippines). Interestingly, for condo
-          units, the top two cities with a high average price per sqm are
-          non-highly urbanized cities, particularly Malay and San Vicente.
-          However, these two cities are in Boracay and Palawan respectively,
-          which are top tourist destinations in the Philippines which could
-          explain the increase in real estate pricing. These data highlight how
-          specific local factors can influence real estate markets. These luxury
-          properties in Alabang and tourist destinations in Boracay and Palawan,
-          illustrates how high-end developments can lead to gentrification. This
-          process often results in the displacement of lower-income residents
-          who can no longer afford to live in these areas.
-        </p>
+
+        {#if point1}
+          <p>
+            Looking at the bar graph above, it can be seen that in general, when
+            it comes to the different types of real estate (lots, houses, condo
+            units), the difference is significantly larger between lots in
+            highly urbanized locations compared to less urbanized locations. The
+            larger price difference for lots suggests a higher demand for land
+            in urban centers, which might be due to commercial development
+            opportunities. On the other hand, the difference is least observed
+            for condo units. The observed differences in price gaps between
+            highly and less urbanized areas for different real estate types
+            (especially lots and houses) indicate a strong demand but limited
+            supply of affordable land and housing. This imbalance exacerbates
+            housing unaffordability as more people compete for fewer available
+            properties, pushing prices higher.
+          </p>
+        {/if}
+      </Card>
+      <Card>
+        <div class="flex items-center space-x-2">
+          <h2 class="flex grow">Good investment opportunities.</h2>
+          <div>
+            <button on:click={toggle2}
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        {#if point2}
+          <p>
+            The tree maps for each real estate type also reinforce the fact that
+            real estate located in highly urbanized cities (colored blue) have a
+            more expensive price per square meter compared to less urbanized
+            cities (colored yellow) since across different real estate types,
+            most of the blue squares are larger. For houses, Zamboanga proves to
+            be an outlier by being a highly urbanized city with house pricing on
+            the cheaper side. Recognizing outliers like Zamboanga, where house
+            prices are cheaper despite being a highly urbanized city, can inform
+            the public of good investment opportunities.
+          </p>
+        {/if}
+      </Card>
+      <Card>
+        <div class="flex items-center space-x-2">
+          <h2 class="flex grow">
+            High-end developments can lead to gentrification.
+          </h2>
+          <div>
+            <button on:click={toggle3}
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        {#if point3}
+          <p>
+            The tree map for lots show that the average price per sqm for real
+            estate lots in Muntinlupa is a lot larger than the rest of the
+            locations represented in the data. Upon closer look, the listings
+            for Muntinlupa fall under Alabang which is home to luxury properties
+            such as real estate within the Ayala Alabang Village (one of the
+            most expensive subdivisions in the Philippines). Interestingly, for
+            condo units, the top two cities with a high average price per sqm
+            are non-highly urbanized cities, particularly Malay and San Vicente.
+            However, these two cities are in Boracay and Palawan respectively,
+            which are top tourist destinations in the Philippines which could
+            explain the increase in real estate pricing. These data highlight
+            how specific local factors can influence real estate markets. These
+            luxury properties in Alabang and tourist destinations in Boracay and
+            Palawan, illustrates how high-end developments can lead to
+            gentrification. This process often results in the displacement of
+            lower-income residents who can no longer afford to live in these
+            areas.
+          </p>
+        {/if}
       </Card>
       <Card>
         <div class="flex items-center space-x-2">
