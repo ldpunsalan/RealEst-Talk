@@ -3,6 +3,7 @@
   import Overview from "./Overview.svelte";
   import Data from "./Data.svelte";
   import Analysis from "./Analysis.svelte";
+  import Results from "./Results.svelte";
 </script>
 
 <svelte:head>
@@ -15,4 +16,5 @@
   <Overview />
   <Data />
   <Analysis />
+  <Results />
 </main>
