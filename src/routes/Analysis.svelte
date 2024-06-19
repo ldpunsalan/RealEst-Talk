@@ -1,14 +1,10 @@
 <script>
   import Card from "./Card.svelte";
   import barchart_opaque from "$lib/images/charts/barchart_opaque.png";
-  import barchart from "$lib/images/charts/barchart.png";
-  import condo_labeled from "$lib/images/charts/condo_labeled.png";
   import condo_opaque from "$lib/images/charts/condo_opaque.png";
   import condohisto from "$lib/images/charts/condohisto.png";
-  import house_labeled from "$lib/images/charts/house_labeled.png";
   import house_opaque from "$lib/images/charts/house_opaque.png";
   import househisto from "$lib/images/charts/househisto.png";
-  import lot_labeled from "$lib/images/charts lot_labeled.png";
   import lot_opaque from "$lib/images/charts lot_opaque.png";
   import lothisto from "$lib/images/charts lothisto.png";
 </script>
