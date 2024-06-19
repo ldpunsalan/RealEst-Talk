@@ -1,6 +1,7 @@
 <script>
   import Header from "./Header.svelte";
   import "./styles.css";
+  import { page } from "$app/stores";
 </script>
 
 <div class="app">
@@ -10,8 +11,31 @@
     <slot />
   </main>
 
-  <footer>
-    <p class="text-[#cdd6f450]">© RealEst Talk. All rights reserved 2024.</p>
+  <footer
+    class="flex fixed bottom-10 right-10 rounded-full bg-[#1e1e2e99] border-[1px] border-[#89b4fa55] backdrop-blur-md p-1 px-4"
+  >
+    <div>
+      <a
+        aria-current={$page.url.pathname === "/" ? "page" : undefined}
+        href="#top"
+        class="flex justify-center items-center text-center flex-col"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 6.75 12 3m0 0 3.75 3.75M12 3v18"
+          />
+        </svg>
+        <div>Top</div></a
+      >
+    </div>
   </footer>
 </div>
 
@@ -33,17 +57,27 @@
     box-sizing: border-box;
   }
 
-  footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
+  svg {
+    width: 2em;
+    height: 3em;
+    display: block;
   }
 
-  @media (min-width: 480px) {
-    footer {
-      padding: 12px 0;
-    }
+  footer a {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    color: var(--color-text);
+    font-size: 0.7rem;
+    text-decoration: none;
+    transition: color 0.2s linear;
+  }
+  a:hover {
+    color: var(--color-theme-1);
+  }
+
+  path {
+    fill: var(--background);
   }
 </style>

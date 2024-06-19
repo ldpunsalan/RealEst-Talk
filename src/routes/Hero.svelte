@@ -3,7 +3,7 @@
 </script>
 
 <main>
-  <section class="hero-container">
+  <section id="top" class="hero-container">
     <div class>
       <img
         src="/src/lib/images/logo.svg"
